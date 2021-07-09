@@ -63,12 +63,22 @@
   box-shadow: 5px 6px 15px grey;
 }
 
+.creative {
+  padding-top: 90px;
+}
 @media (max-width: 576px) {
   .title {
     margin-top: 30px;
     position: absolute;
   }
   .banner-image {
+    margin-top: 300px;
+  }
+  .creative {
+    position: absolute;
+    padding-top: 0px;
+  }
+  .info {
     margin-top: 300px;
   }
 }
