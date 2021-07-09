@@ -1,1 +1,65 @@
-# Nike-Webpage
+.highlight {
+  color: #fa804c;
+}
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+.navbar-nav {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-banner {
+  background-color: #fff9f4;
+}
+
+/* */
+.title {
+  margin-top: 80px;
+}
+
+.title h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 65px;
+}
+.main-btn {
+  background-color: #3d4ff3;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  font-weight: normal;
+}
+
+.shoes {
+  margin-top: 50px;
+}
+
+/* .card-img {
+  border: 1px solid black;
+  background-color: gray;
+  border-radius: 15px;
+} */
+.card {
+  border-radius: 15px;
+}
+.card-img-top {
+  height: 300px;
+  border: 18px solid white;
+  background-color: #f1f1f1;
+  border-radius: 35px;
+}
+
+@media (max-width: 576px) {
+  .title {
+    margin-top: 30px;
+    position: absolute;
+  }
+  .banner-image {
+    margin-top: 300px;
+  }
+}
