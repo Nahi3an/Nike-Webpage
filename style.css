@@ -66,6 +66,14 @@
 .creative {
   padding-top: 90px;
 }
+
+footer {
+  margin-top: 10px;
+  background-color: #fa804c;
+  color: white;
+  padding: 10px 0px 10px 0px;
+}
+
 @media (max-width: 576px) {
   .title {
     margin-top: 30px;
@@ -80,5 +88,6 @@
   }
   .info {
     margin-top: 300px;
+    text-align: center;
   }
 }
